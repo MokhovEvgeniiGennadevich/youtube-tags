@@ -1,0 +1,4 @@
+# Default video tags
+super video
+home video
+top video

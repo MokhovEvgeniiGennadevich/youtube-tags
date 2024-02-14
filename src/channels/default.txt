@@ -1,0 +1,3 @@
+# Default channel tags
+super channel 
+mr.pupkins channel
