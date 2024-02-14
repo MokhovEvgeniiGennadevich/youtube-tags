@@ -14,6 +14,9 @@ foreach ($parse as $dir) {
 	foreach ($files as $file) {
 		$tags = file_read('src/'.$dir . '/' .$file);
 	
+		// Result
+		$result = implode(', ', $tags);
+
 		// Save in Result folder
 		file_put_contents('result/'.$dir.'/'.$file, implode(', ', $tags));
 	}
