@@ -1,0 +1,21 @@
+# Ignore all in result/channels
+result/channels/*
+
+# Except default example
+!result/channels/default.txt
+
+# Ignore all in result/video
+result/video/*
+
+# Except default example
+!result/video/default.txt
+
+# Ignore all in channels
+src/channels/*
+!src/channels/default.txt
+
+# Ignore all in video
+src/video/*
+
+# Except default example
+!src/video/default.txt
